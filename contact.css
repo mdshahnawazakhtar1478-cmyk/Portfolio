@@ -1,0 +1,23 @@
+body > form {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height: 700px;
+}
+
+body > form > section {
+    width: 200px;
+    height: auto;
+    padding:12px 12px;
+    border: 2px solid grey;
+}
+
+body > form > section > div {
+    display:flex;
+    flex-direction: column;
+    margin: 8px 0;
+}
+
+body> form > section > button {
+    margin:8px 0;
+}
