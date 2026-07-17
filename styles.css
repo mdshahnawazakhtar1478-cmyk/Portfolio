@@ -10,6 +10,7 @@
   --color-border: #d9e0ee;
   --color-primary: #355cff;
   --color-primary-dark: #1735b8;
+  --color-secondary: #052295;
   --color-accent: #11a37f;
   --shadow-soft: 0 20px 60px rgba(15, 23, 42, 0.08);
   --radius-lg: 28px;
@@ -480,9 +481,9 @@ section{
   max-width: 650px;
 }
 
-/* =========================
+/*=========================
    Footer
-========================= */
+===========================*/
 .site-footer {
   padding: 28px 0;
   color: var(--color-muted);
