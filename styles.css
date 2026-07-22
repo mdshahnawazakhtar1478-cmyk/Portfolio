@@ -511,3 +511,25 @@ section{
   font-weight: 800;
   text-decoration: none;
 }
+
+/* ===========================
+ Media Query Start
+=========================== */
+
+/*  Desktop (Large Screens)  */
+
+@media (min-width: 1200px) {
+
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+}
