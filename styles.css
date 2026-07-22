@@ -550,5 +550,18 @@ section{
 /* Mobile */
 
 @media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+    padding: 16px 0;
+  }
 
+  .site-nav {
+    justify-content: center;
+  }
+
+  .site-nav a {
+    padding: 8px 12px;
+  }
 }
