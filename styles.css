@@ -562,6 +562,15 @@ section{
   .hero-text {
     max-width: 100%;
   }
+
+  .two-column {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .contact-card {
+    padding: 28px;
+  }
 }
 
 /* Mobile */
@@ -609,5 +618,17 @@ section{
 
   .hero-actions{
     justify-content: center;
+  }
+
+  .two-column {
+    gap: 24px;
+  }
+
+  .two-column > div:first-child {
+    text-align: center;
+  }
+
+  .content-card{
+    padding: 20px;
   }
 }
