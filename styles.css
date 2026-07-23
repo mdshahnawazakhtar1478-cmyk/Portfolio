@@ -545,6 +545,23 @@ section{
     padding: 8px 10px;
     font-size: 15.2px;
   }
+
+  .hero-grid {
+    grid-template-columns: 1.5fr 1fr;
+    gap: 24px;
+  }
+
+  .hero-card {
+    max-width: 380px;
+  }
+
+  .hero-card img {
+    width: 70%;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
 }
 
 /* Mobile */
@@ -563,5 +580,34 @@ section{
 
   .site-nav a {
     padding: 8px 12px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 64px 0;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .hero-copy {
+    order: 1;
+  }
+
+  .hero-card {
+    order: 2;
+    justify-self: center;
+    max-width: 340px;
+  }
+
+  .hero-card img {
+    width: 60%;
+  }
+
+  .hero-actions{
+    justify-content: center;
   }
 }
