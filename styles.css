@@ -571,6 +571,11 @@ section{
   .contact-card {
     padding: 28px;
   }
+
+  .timeline {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }
 
 /* Mobile */
@@ -629,6 +634,14 @@ section{
   }
 
   .content-card{
+    padding: 20px;
+  }
+
+  .timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-item {
     padding: 20px;
   }
 }
