@@ -123,3 +123,49 @@ input[type="checkbox"] {
   color: var(--color-muted);
   font-size: 14.4px;
 }
+
+/* ===========================
+ Media Query Start
+=========================== */
+
+/* Tablet */
+
+@media (max-width: 992px) {
+
+  .page-hero {
+    min-height: auto;
+    padding: 64px 0;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 28px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .page-hero {
+    padding: 48px 0;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 20px;
+  }
+
+  .contact-links a {
+    text-align: center;
+  }
+
+  .contact-info h2,
+  .contact-form h2 {
+    text-align: center;
+  }
+}
