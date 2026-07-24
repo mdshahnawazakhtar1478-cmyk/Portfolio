@@ -590,6 +590,12 @@ section{
     grid-column: 1/-1;
     min-height: auto;
   }
+
+  .split-panel {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 32px;
+  }
 }
 
 /* Mobile */
@@ -677,5 +683,14 @@ section{
 
   .project-card {
     padding: 20px;
+  }
+
+  .split-panel {
+    gap: 24px;
+    padding: 24px 20px;
+  }
+
+  .split-panel > div:first-child {
+    text-align: center;
   }
 }
