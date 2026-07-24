@@ -600,7 +600,16 @@ section{
   .goal-grid{
     grid-template-columns:repeat(2,1fr);
     gap:20px;
-}
+  }
+
+  .contact-preview-card {
+    flex-direction:column;
+    padding:32px;
+  }
+
+  .contact-preview-card > div:first-child {
+    max-width:100%;
+  }
 }
 
 /* Mobile */
@@ -699,11 +708,25 @@ section{
     text-align: center;
   }
 
-  .goal-grid{
+  .goal-grid {
     grid-template-columns:1fr;
-}
+  }
 
-.goal-card{
+  .goal-card {
     padding:20px;
-}
+  }
+
+  .contact-preview-card {
+    padding: 24px 20px;
+    text-align: center;
+  }
+
+  .contact-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contact-actions .button {
+    width: 100%;
+  }
 }
