@@ -581,6 +581,15 @@ section{
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
+
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .featured-project {
+    grid-column: 1/-1;
+    min-height: auto;
+  }
 }
 
 /* Mobile */
@@ -655,6 +664,18 @@ section{
   }
 
   .skill-card {
+    padding: 20px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-project {
+    grid-column: auto;
+  }
+
+  .project-card {
     padding: 20px;
   }
 }
