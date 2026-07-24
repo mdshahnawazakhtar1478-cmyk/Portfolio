@@ -576,6 +576,11 @@ section{
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }
 
 /* Mobile */
@@ -642,6 +647,14 @@ section{
   }
 
   .timeline-item {
+    padding: 20px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card {
     padding: 20px;
   }
 }
