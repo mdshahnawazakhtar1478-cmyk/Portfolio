@@ -516,12 +516,6 @@ section{
  Media Query Start
 =========================== */
 
-/*  Desktop (Large Screens)  */
-
-@media (min-width: 1200px) {
-
-}
-
 /* Tablet */
 
 @media (max-width: 992px) {
