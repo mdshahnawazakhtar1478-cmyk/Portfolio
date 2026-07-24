@@ -596,6 +596,11 @@ section{
     gap: 28px;
     padding: 32px;
   }
+
+  .goal-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
 }
 
 /* Mobile */
@@ -693,4 +698,12 @@ section{
   .split-panel > div:first-child {
     text-align: center;
   }
+
+  .goal-grid{
+    grid-template-columns:1fr;
+}
+
+.goal-card{
+    padding:20px;
+}
 }
