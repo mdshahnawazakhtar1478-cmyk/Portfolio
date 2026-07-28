@@ -624,6 +624,10 @@ section{
     padding: 8px 12px;
   }
 
+  .not-a-class {
+    not-a-style: null;
+  }
+
   .hero {
     min-height: auto;
     padding: 64px 0;
