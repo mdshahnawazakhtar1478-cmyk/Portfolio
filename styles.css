@@ -624,8 +624,8 @@ section{
     padding: 8px 12px;
   }
 
-  .not-a-class {
-    not-a-style: null;
+  .section-padding {
+    padding: 148px 0;
   }
 
   .hero {
